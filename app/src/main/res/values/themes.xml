@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for tablets and larger screens -->
+    <style name="Theme.AcademicService.Tablet" parent="Theme.AcademicService">
+        <!-- Custom attributes for tablets can be added here -->
+    </style>
+
+    <!-- Night theme -->
+    <style name="Theme.AcademicService.Night" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+</resources>
